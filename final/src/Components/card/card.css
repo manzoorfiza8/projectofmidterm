@@ -1,0 +1,131 @@
+
+  body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+    height: 500px;
+    width:100%;
+    transition: transform 0.3s ease-in-out;
+    background-color: #dad4d48a;
+    margin-bottom: 20px; 
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .chip-content {
+    padding: 14px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px; 
+  }
+  
+  .chip {
+    font-size: 0.7rem;
+    padding-top: 15px;
+    background: linear-gradient(to right, #61b2e8, #a7bfe8);
+    color: #181313;
+    padding: 0.3rem 0.5rem;
+    padding-left: 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    height: 200px; 
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0; 
+    margin-right: 0;
+  }
+  
+  .card-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .card-title {
+    font-size: 17px;
+    margin: 5px 0;
+  }
+  
+  .desc-content {
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    color:#131212;
+
+  }
+  
+  .card-description {
+    font-size: 12px;
+    margin: 8px 0;
+    color:#131212;
+    white-space: pre-line;
+  }
+  
+  .calendar-info {
+    display: flex;
+    justify-content: space-between; 
+    margin-right: 10px; 
+    margin-left: 10px;
+  }
+  
+  .calendar-text {
+    font-size: 0.8em;
+    color: #999;
+  }
+  
+  .price-info {
+    margin-top: 10px;
+    font-size: 38px;
+
+  }
+  
+  .price-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0a0a0a;
+  }
+  
+  .card-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-right: 0;
+    margin-left: 0; 
+  }
+  
+  .card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+  }
+  
+  .icon {
+    order: 1;
+  }
+  
+  .button {
+    order: 2;
+  }
+   
+
+    

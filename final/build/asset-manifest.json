@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e4e865f.css",
+    "main.js": "/static/js/main.80964260.js",
+    "static/media/kauai-unsplash.jpg": "/static/media/kauai-unsplash.9afa2734f90f7cc1e7a8.jpg",
+    "index.html": "/index.html",
+    "main.4e4e865f.css.map": "/static/css/main.4e4e865f.css.map",
+    "main.80964260.js.map": "/static/js/main.80964260.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4e865f.css",
+    "static/js/main.80964260.js"
+  ]
+}
